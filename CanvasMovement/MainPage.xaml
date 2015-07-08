@@ -1,0 +1,97 @@
+﻿<Page
+    x:Class="CanvasMovement.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CanvasMovement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="TestCanvas"
+                Grid.Row="0"
+                MinHeight="360"
+                MinWidth="360"
+                HorizontalAlignment="Center"  
+                Margin="0,0,0,15"
+                VerticalAlignment="Top"
+                Background="DarkBlue">
+            <Image x:Name="TestImage"
+                   Height="50" 
+                   Canvas.Left="60" 
+                   Canvas.Top="130" 
+                   Width="50" Source="Image/icon.png"/>
+        </Canvas>
+        <TextBlock Text="Press buttons to move:"
+                   Grid.Row="1"
+                   FontSize="20"
+                   Margin="10,5,0,0"
+                   />
+        <Button 
+            x:Name="BtnLeft"
+            Grid.Row="1"
+            Content="Left"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="10,55,0,0"
+            Click="BtnLeft_Click"
+            />
+        <Button 
+            x:Name="BtnRight"
+            Grid.Row="1"
+            Content="Right"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="0,55,10,0"
+            Click="BtnRight_Click"
+            />
+        <Button 
+            x:Name="BtnUp"
+            Grid.Row="1"
+            Content="Up"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="0,20,0,0"
+            Click="BtnUp_Click"
+            />
+        <Button 
+            x:Name="BtnDown"
+            Grid.Row="1"
+            Content="Down"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="0,80,0,0"
+            Click="BtnDown_Click"
+            />
+
+        <TextBlock Text="Press star/stop to activate rotation:"
+                   Grid.Row="2"
+                   FontSize="20"
+                   Margin="10,15,0,0"
+                   />
+        <Button 
+            x:Name="BtnStart"
+            Grid.Row="2"
+            Content="Start"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="50,45,0,0"
+            Click="BtnStart_Click"
+            />
+        <Button 
+            x:Name="BtnStop"
+            Grid.Row="2"
+            Content="Stop"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="0,45,50,0"
+            Click="BtnStop_Click"
+            />
+    </Grid>
+</Page>

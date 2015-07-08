@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PIOTR</Machine>
+    <WindowsUser>Piotr</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0cf75bbc-5bd0-4f09-8d74-4f7d70610190</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\bin\Debug\CanvasMovement.exe">
+      <PackagePath>CanvasMovement.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\Image\icon.png">
+      <PackagePath>Image\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\bin\Debug\CanvasMovement.xr.xml">
+      <PackagePath>CanvasMovement.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Piotr\Documents\Visual Studio 2013\Projects\CanvasMovement\CanvasMovement\CanvasMovement\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
